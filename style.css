@@ -47,6 +47,52 @@ body{
     color: #ffffff;
 }
 
+.hero {
+    max-width: 850px;
+    margin: 0 ;
+    text-align: center;
+    padding: 130px 20px 100px;
+}
 
+.tag {
+    display: inline-block;
+    color: #9a87ff;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 22px;
+}
 
+.hero h1{
+    font-size: clamp(45px, 7vw, 72px);
+    line-height: 1.05;
+    letter-spacing: -3px;
+    margin-bottom: 25px;
+}
+
+.hero-text {
+    max-width: 520px;
+    margin: 0 auto 35px;
+    color: #8f949d;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.start-btn{
+    border: none;
+    background: #7c5cff;
+    color: white;
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.start-btn:hover {
+    background: #6b4df0;
+    transform: translateY(-2px);
+    box-shadow: #b4b4b4;
+}
 
