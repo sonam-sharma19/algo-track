@@ -10,3 +10,43 @@ body{
     color: white;
 }
 
+
+
+.navbar {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8%;
+    border-bottom: 1px solid #1d2025;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.logo span{
+    color: #7c5cff;
+}
+
+.nav-links{
+    display: flex;
+    gap: 32px;
+}
+
+.nav-links a{
+    color: #8f949d;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover{
+    color: #ffffff;
+}
+
+
+
+
