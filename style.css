@@ -149,3 +149,45 @@ body{
     margin: 0;
     color: #8b5cf6;
 }
+/* DSA Topics Section */
+
+.topics-section {
+    padding: 100px 8%;
+    text-align: center;
+}
+
+.topics-section .section-heading {
+    margin-bottom: 50px;
+}
+
+.topic-cards {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.topic-card {
+    padding: 28px;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.03);
+    transition: 0.3s ease;
+}
+
+.topic-card:hover {
+    transform: translateY(-5px);
+    border-color: #7c5cff;
+}
+
+.topic-card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.topic-card p {
+    color: #8f949d;
+    font-size: 14px;
+}
