@@ -242,3 +242,31 @@ body{
     line-height: 1.6;
     
 }
+
+/* Footer */
+
+.footer {
+    padding: 60px 8% 30px;
+    border-top: 1px solid #1d2025;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-content h3 span {
+    color: #7c5cff;
+}
+
+.footer-content p {
+    color: #8f949d;
+    font-size: 14px;
+}
+
+.footer-bottom {
+    margin-top: 35px;
+    color: #5f636b;
+    font-size: 12px;
+}
