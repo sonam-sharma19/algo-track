@@ -270,3 +270,45 @@ body{
     color: #5f636b;
     font-size: 12px;
 }
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        padding: 0 5%;
+    }
+
+    .nav-links {
+        gap: 16px;
+    }
+
+    .hero {
+        padding: 100px 20px 80px;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+    }
+
+    .progress-section,
+    .topics-section,
+    .how-it-works {
+        padding: 80px 5%;
+    }
+
+    .progress-cards,
+    .topic-cards,
+    .steps {
+        grid-template-columns: 1fr;
+    }
+
+    .progress-section h2 {
+        font-size: 2rem;
+    }
+
+    .topic-card,
+    .step {
+        text-align: center;
+    }
+}
