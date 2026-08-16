@@ -366,3 +366,7 @@ body{
     background: #6b4df0;
     transform: translateY(-2px);
 }
+
+.topic-card {
+    cursor: pointer;
+}
