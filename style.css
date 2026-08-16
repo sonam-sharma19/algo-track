@@ -348,3 +348,21 @@ body{
     background: #6b4df0;
     transform: translateY(-2px);
 }
+
+#streak-btn {
+    margin-top: 15px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    background: #7c5cff;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#streak-btn:hover {
+    background: #6b4df0;
+    transform: translateY(-2px);
+}
